@@ -1,7 +1,14 @@
 # **Digital Skeptic AI**
 
-**I have made frontend for easy checking you put url in box and get the whole report of that article with all given vital requirements 
-it is easy to use and code is reusable. I have made crawling of information in a different function which can be used as tool too if we want agent to fetch our response instead of direct extracting on getting a url.**
+**I have developed a simple and user-friendly frontend where you can paste any URL into a box and instantly receive a complete report of the article, including all the key requirements.
+
+The code is designed to be modular and reusable. The information crawling logic is implemented in a separate function, making it easy to use as a standalone tool. This means we can either:
+
+Directly extract the required data when a URL is provided, or
+
+Integrate it as a tool within an agent framework, allowing the agent to fetch and process the response on demand.
+
+This separation of concerns makes the system flexible, maintainable, and easy to extend for future use cases.**
 
 ## **Installation and Setup**
 
