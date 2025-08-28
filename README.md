@@ -2,11 +2,11 @@
 
 **I have developed a simple and user-friendly frontend where you can paste any URL into a box and instantly receive a complete report of the article, including all the key requirements.
 
-The code is designed to be modular and reusable. The information crawling logic is implemented in a separate function, making it easy to use as a standalone tool. This means we can either:
+The code is designed to be modular and reusable. The information crawling logic is implemented in a separate function, making it easy to reuse as a standalone tool just have to to add agent.tool on it and change in prompt. This means we can either:
 
-Directly extract the required data when a URL is provided, or
+1.Directly extract the required data when a URL is provided, or
 
-Integrate it as a tool within an agent framework, allowing the agent to fetch and process the response on demand.
+2.Integrate it as a tool within an agent framework, allowing the agent to fetch and process the response on demand.
 
 This separation of concerns makes the system flexible, maintainable, and easy to extend for future use cases.**
 
