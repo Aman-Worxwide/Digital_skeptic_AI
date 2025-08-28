@@ -1,0 +1,25 @@
+[project]
+name = "digital-skeptic-ai"
+version = "0.1.0"
+description = "Digital Skeptic AI - Web content analysis tool"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.116.1",
+    "uvicorn[standard]>=0.27.0",
+    "openai>=1.102.0",
+    "pydantic-ai>=0.8.0",
+    "httpx>=0.28.1",
+    "beautifulsoup4>=4.13.4",
+    "requests>=2.31.0",
+    "streamlit>=1.32.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.11.7"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
