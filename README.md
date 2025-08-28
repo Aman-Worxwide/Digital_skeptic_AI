@@ -15,8 +15,8 @@ it is easy to use and code is reusable. I have made crawling of information in a
 
 =>to run frontend you can use this command 
 
-        `streamlit run app.py`
+        streamlit run app.py
 
 =>to run backend you can run this command
         
-        `uvicorn main:app --reload`
+        uvicorn main:app --reload
